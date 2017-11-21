@@ -4,6 +4,7 @@
     	<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="plugin.program.advancedsettings" version="0.8.9"/>
 		<import addon="plugin.program.simple.favourites" version="0.0.1"/>
+		<import addon="script.simpleplaylists" version="0.0.1"/>
  </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
