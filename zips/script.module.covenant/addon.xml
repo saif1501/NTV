@@ -6,6 +6,7 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">Covenant, Modded to Allow Metalliq Playback</summary>
+		<summary lang="en">Covenant</summary>
+		<description lang="en">Modded to Allow Metalliq Playback</description>
 	</extension>
 </addon>
