@@ -1,11 +1,10 @@
 <addons>
-<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.6.3" provider-name="Ryski">
+<addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.6.4" provider-name="Ryski">
   <requires>
     	<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="plugin.program.advancedsettings" version="0.8.9"/>
-		<import addon="plugin.program.simple.favourites" version="0.0.1"/>
-		<import addon="script.simpleplaylists" version="0.0.1"/>
- </requires>
+		<import addon="plugin.program.NTV-Hubs" version="1.0.0"/>
+</requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
   </extension>
@@ -15,6 +14,25 @@
     <platform>all</platform>
   </extension>
 </addon>
+	
+<addon id="plugin.program.NTV-Hubs"
+version="1.0.0"
+name="NTV Hubs"
+provider-name="primaeval ,Ryski Mod">
+<requires>
+  <import addon="xbmc.python" version="2.20.0"/>
+  <import addon="script.module.xbmcswift2" version="2.4.0"/>
+  <import addon="script.module.requests" version="2.9.1" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>executable</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en"></summary>
+  <description lang="en">NTV Favs Addon</description>
+  <disclaimer lang="en">.</disclaimer>
+</extension>
+</addon>	
 	
 <addon id="plugin.program.simple.favourites"
 version="0.1.13"
