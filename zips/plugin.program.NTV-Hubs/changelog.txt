@@ -1,0 +1,11 @@
+version 1.0.3
+- Added UKTV Play
+
+version 1.0.2
+- updated Hubs to push to repo
+
+version 1.0.1
+- first forked and Addon data path moved. RM
+
+version 0.0.1
+- first release
