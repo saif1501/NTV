@@ -1,3 +1,6 @@
+version 1.0.4
+- Added Atom 
+
 version 1.0.3
 - Added UKTV Play
 
