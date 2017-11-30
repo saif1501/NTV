@@ -16,7 +16,7 @@
 </addon>
 	
 <addon id="plugin.program.NTV-Hubs"
-version="1.0.3"
+version="1.0.4"
 name="NTV Hubs"
 provider-name="primaeval ,Ryski Mod">
 <requires>
