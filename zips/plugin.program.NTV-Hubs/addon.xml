@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.NTV-Hubs"
-version="1.0.1"
+version="1.0.2"
 name="NTV Hubs"
 provider-name="primaeval ,Ryski Mod">
 <requires>
@@ -13,7 +13,7 @@ provider-name="primaeval ,Ryski Mod">
 </extension>
 <extension point="xbmc.addon.metadata">
   <summary lang="en"></summary>
-  <description lang="en">NTV Favs Addon</description>
+  <description lang="en">Addon to Enable Instant and Silent Hub Updates via the repository. This is for NTV Builds Only </description>
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
