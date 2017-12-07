@@ -1,4 +1,8 @@
 version 1.0.4
+- Removed Atom thieving bastards 
+- Added StarTec
+
+version 1.0.4
 - Added Atom 
 
 version 1.0.3
