@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.NTV-Hubs"
-version="1.0.6"
+version="1.0.7"
 name="NTV Hubs"
 provider-name="primaeval ,Ryski Mod">
 <requires>
@@ -8,6 +8,8 @@ provider-name="primaeval ,Ryski Mod">
   <import addon="script.module.xbmcswift2" version="2.4.0"/>
   <import addon="script.module.requests" version="2.9.1" />
   <import addon="repository.subzero" version="1.0.0" />
+  <import addon="repository.blamo" version="0.0.1" />
+  <import addon="repository.supremacy" version="0.0.1" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>executable</provides>
