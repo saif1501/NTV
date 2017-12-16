@@ -15,6 +15,23 @@
   </extension>
 </addon>
 
+    <addon id="repository.boom" name="BOOM! Repository" version="1.3" provider-name="BOOM">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="BOOM! Repository">
+            <info compressed="false">http://burrtv.tech/boom/_repo/addons.xml</info>
+            <checksum>http://burrtv.tech/boom/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">http://burrtv.tech/boom/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>BOOM! Repository</summary>
+            <description>In memory of Lee Jeffries.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="9.0.69">
 <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -39,6 +56,30 @@
 	  </menu>
 	</extension>
  </addon>
+
+<addon id="plugin.video.boomgold"
+       name="[COLOR red]BOOM[/COLOR][COLOR gold]gold[/COLOR]"
+       version="0.0.1"
+       provider-name="Boom">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson" version="0.0.1"/>
+    <import addon="script.module.urlresolver"  version="0.0.1"/>
+    <import addon="script.module.metahandler" version="0.0.1"/>
+	<import addon="script.common.plugin.cache" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en"></summary>
+    <description lang="en"></description>
+    <disclaimer lang="en">The author does not host or distribute any of the content displayed by this addon or have any affiliation with the website owners</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
 
 <addon id="plugin.video.OJFPN" name="OJFPN" version="1.3" provider-name="midraal, Ryski Mod">
     <requires>
@@ -86,6 +127,8 @@ provider-name="primaeval ,Ryski Mod">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
+
+
 
 
 <addon id="repository.blamo" name="[COLOR red]Blamo Repo[/COLOR]" version="0.0.1" provider-name="Blamo">
