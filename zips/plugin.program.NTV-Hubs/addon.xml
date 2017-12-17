@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="plugin.program.NTV-Hubs"
-version="1.0.9"
+version="1.1.0"
 name="NTV Hubs"
 provider-name="primaeval ,Ryski Mod">
 <requires>
@@ -11,7 +11,7 @@ provider-name="primaeval ,Ryski Mod">
   <import addon="repository.blamo" version="0.0.1" />
   <import addon="repository.supremacy" version="0.0.1" />
   <import addon="plugin.video.boomgold" version="0.0.1" />
-  <import addon="plugin.repository.boom" version="0.0.1" />
+  <import addon="repository.boom" version="1.0.3" />
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>executable</provides>
@@ -22,4 +22,3 @@ provider-name="primaeval ,Ryski Mod">
   <disclaimer lang="en">.</disclaimer>
 </extension>
 </addon>
-
