@@ -1,3 +1,5 @@
+<addons>
+
 <addon id="plugin.program.NTV-KryptonWiz" name="NTV-KryptonWiz" version="1.7.0" provider-name="Ryski">
   <requires>
     	<import addon="xbmc.python" version="2.1.0"/>
