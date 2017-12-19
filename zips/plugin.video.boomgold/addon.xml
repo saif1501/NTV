@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.video.boomgold"
        name="[COLOR red]BOOM[/COLOR][COLOR gold]gold[/COLOR]"
-       version="0.0.1"
+       version="1.0"
        provider-name="Boom">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
